@@ -1,8 +1,6 @@
 
 # Keus_task
 
-![Your App Logo](assets/logo.png) <!-- Replace with your app logo -->
-
 ## Features Implemented
 
 This project is a Flutter application designed to simulate a simple food ordering system. The main features implemented as per the requirements are:
@@ -20,9 +18,12 @@ This project is a Flutter application designed to simulate a simple food orderin
     - Allows users to **remove food items** from the cart.
 
 - **State Management**:
-    - All states are managed locally within the application. There is no requirement for using any external API.
+    - All states are managed locally within the provider where we have add,remove,getItems for cart opeartions.
 
-#
+![Screenshot 1](assets/Screenshot1.png)
+![Screenshot 2](assets/Screenshot2.png)
+![Screenshot 3](assets/Screenshot3.png)
+![Screenshot 4](assets/Screenshot4.png)
 
 ## Table of Contents
 
@@ -55,33 +56,15 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/YourUsername/YourFlutterApp.git
-Navigate into the project directory:
+2. **Navigate into the project directory:**:
 
-bash
-Copy code
-cd YourFlutterApp
-Install dependencies:
+   ```bash
+   cd YourFlutterApp 
+3. **Install dependencies:**:
 
-Run the following command to get the necessary dependencies:
+   ```bash
+   flutter pub get   
+4. **Run the following command to get the necessary dependencies:**:
 
-bash
-Copy code
-flutter pub get
-Running the Application
-To run the application, follow these steps:
-
-Connect a device (physical device or emulator). If you want to use an emulator, ensure it's running.
-
-Run the app using the command:
-
-bash
-Copy code
-flutter run
-Alternatively, you can use your IDE's built-in tools to run the app.
-
-Select a target device if prompted.
-
-Contact
-If you have any questions or feedback, feel free to reach out:
-
-Email: akshaymadan098@gmail.com
+   ```bash
+   flutter run
